@@ -1,11 +1,17 @@
 # my-movie-recommender
 
+This repository contains a variety of recommender system work. Some of the work pertains to making user-movie recommendations through a couple different matrix factorization methods - the project description contained in this readme is specific to that. The newer work pertains to using deep learning to develop a hybrid item-to-item content-collaborative recommender - this work is described in great detail in [this blog post](https://towardsdatascience.com/creating-a-hybrid-content-collaborative-movie-recommender-using-deep-learning-cc8b431618af).
+
 ## Dev Setup
 
 - `cd` into repository root
 - `conda env create -f environment.yml`
 - `source activate my-movie-recommender`
 - `ipython kernel install --user --name=my-movie-recommender`
+
+Ensure PyTorch is installed
+
+`conda install pytorch torchvision -c pytorch` (works for Linux and MacOS)
 
 ## Introduction
 
